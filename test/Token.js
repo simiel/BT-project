@@ -8,7 +8,7 @@ describe("Token contract", function () {
   async function deployTokenFixture() {
     const [owner, addr1, addr2] = await ethers.getSigners();
 
-    const hardhatToken = await ethers.deployContract("Token");
+    const hardhatToken = await ethers.deployContract("SMToken");
 
     // Fixtures can return anything you consider useful for your tests
     return { hardhatToken, owner, addr1, addr2 };
