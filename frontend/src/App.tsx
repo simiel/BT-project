@@ -40,7 +40,7 @@ const App: React.FC = () => {
           <div>
             <p className="mb-2">Connected Account:</p>
             <p className="text-sm text-gray-600 break-all mb-4">{account}</p>
-            <p className="mb-4">Token Balance: {balance} MHT</p>
+            <p className="mb-4">Token Balance: {balance} SMNSH</p>
             <TransferForm fetchBalance={fetchBalance} />
           </div>
         )}
