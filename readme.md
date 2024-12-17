@@ -44,7 +44,7 @@ Welcome to the **SMNSH Token & dApp** project! This repository encapsulates the 
 
 - **HardHat:** Development, compilation, and testing of the ERC-20 token smart contract.
 - **Solidity:** Programming language for the smart contracts.
-- **Ethereum Test Network (Goerli or Sepolia):** Deployment target. (Initially considered Polygon, but faucet issues led to Ethereum test networks.)
+- **Ethereum Test Network (Sepolia):** Deployment target. (Initially considered Polygon Amoy, but faucet issues led to Ethereum test networks.)
 
 **Front-End:**
 
@@ -55,9 +55,9 @@ Welcome to the **SMNSH Token & dApp** project! This repository encapsulates the 
 
 **Additional Tooling & Resources:**
 
-- **Node.js & npm:** For project dependency management.
+- **Node.js & yarn:** For project dependency management.
 - **VSCode:** Primary development environment.
-- **Blockchain Courses:** University at Buffalo’s Blockchain Specialization on Coursera, a Web3 dev course on Udemy, and additional materials from a mentor.
+- **Blockchain Courses:** University at Buffalo’s Blockchain Specialization on Coursera, a Web3 dev course on Udemy, and additional materials from Oxford University.
 
 ---
 
@@ -139,7 +139,7 @@ The project is divided into two main parts:
    2. **Install dependencies:**
 
       ```bash
-      npm install
+      yarn
       ```
 
    ### Environment Variables
@@ -180,7 +180,7 @@ The project is divided into two main parts:
    1. **Start the development server:**
 
       ```bash
-      npm start
+      yarn start
       ```
 
    2. **Open your browser:**
@@ -217,7 +217,7 @@ The project is divided into two main parts:
    2. **Front-End Tests:**
 
       ```bash
-      npm test
+      yarn test
       ```
 
    ***
@@ -253,7 +253,7 @@ Here are some screenshots and media showcasing the **SMNSH Token & dApp**:
   - Verify that your Infura project ID is correct and has sufficient access.
 
 - **Front-End Issues:**
-  - Ensure all dependencies are installed by running `npm install`.
+  - Ensure all dependencies are installed by running `yarn`.
   - Check the browser console for any errors and address them accordingly.
 
 ### Roadmap & Future Improvements
